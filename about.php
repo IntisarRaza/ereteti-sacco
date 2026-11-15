@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-   <script src="js/main.js" defer></script>
-    <title>About us - Ereteti Dairy Sacco</title>
-</head>
-<body>
- <header>
-        <h1> About Ereteti</h1>
-        <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/routes.html">Our routes</a>
-            <a href="/contact.html">Contact</a>
-            <a href="/register.html">Join</a>
-            <a href="/deliveries.html">Deliveries</a>
-        </nav>
-    </header>
+<?php
+$page_title = "About- Ereteti Dairy Sacco";
+$page_heading = "About Ereteti Dairy Sacco";
+include 'includes/header.php';
+?>
+
+        
     <main>
+        <h1>milk collected twice a day, on three routes out of Ngong.</h1>
         <h2> Nine farmers and one cooler</h2>
         <p> The sacco was registered in 1998 by nine farmers who were
               selling to a broker at the roadside and <strong>losing most of an
@@ -41,9 +27,9 @@
             <footer>Mary Sankale, chairperson</footer>
     </blockquote>
         
-    <img src="/img/first-cooler.jpg" width = "400" height = "300" alt="The first cooler, still in use at the Kiserian centre">
+    <img src="img/first-cooler.jpg" width = "400" height = "300" alt="The first cooler, still in use at the Kiserian centre">
 
-    <img src="/img/collection-lorry.jpg" width = "400" height = "300" alt="Churns loaded onto the lorry on the Ngong road at sunrise">
+    <img src="img/collection-lorry.jpg" width = "400" height = "300" alt="Churns loaded onto the lorry on the Ngong road at sunrise">
     </main>
     <aside>
         <h2>Notice</h2>
@@ -58,10 +44,5 @@ a national ID and a bank account.</li>
 </ul>
 </aside>
     
-    <footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p>Site built by Intisar Hassan, DBT Year 1, 2026.</p>
-    </footer>
-</body>
-
-</html>
+    
+<?php include 'includes/footer.php'; ?>

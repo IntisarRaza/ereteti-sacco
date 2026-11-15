@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
-    <title>Our routes - Ereteti Dairy Sacco</title>
-</head>
+
+<?php
+$page_title = "Our Routes";
+include 'includes/header.php';
+$page_heading = "Ereteti Dairy Sacco - Our Routes";
+?>
+
 <main>
     <label for="route-search">Find a route or a centre</label>
    <input type="search" id="route-search" placeholder="e.g. Kibiko">
@@ -65,10 +63,5 @@ a national ID and a bank account.</li>
 </ul>
 </aside>
 </main>
-    <footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p>Site built by Intisar Hassan, DBT Year 1, 2026.</p>
-</footer>
-</body>
-
-</html>
+   
+<?php include 'includes/footer.php'; ?>

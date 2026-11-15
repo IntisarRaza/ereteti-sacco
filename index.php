@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ereteti Dairy Sacco</title>
-
-<link rel="stylesheet" href="css/style.css">
-
-<script src="js/main.js" defer></script>
-</head>
-<body style="background-color: yellow;">
-    <header>
-        <h1> Ereteti Dairy Sacco</h1>
-        <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/routes.html">Our routes</a>
-            <a href="/contact.html">Contact</a>
-            <a href="/register.html">Join</a>
-             <a href="/deliveries.html">Deliveries</a>
-        </nav>
-    </header>
+<?php
+$php_title= "home";
+include 'includes/header.php';
+?>
+ <main>
+    <h1>Welcome to Ereteti Dairy Sacco</h1>
     <h2>Milk collected twice a day, paid once a month</h2>
 
     <p>Ereteti Dairy Sacco has collected milk on the Ngong road
@@ -40,8 +22,8 @@
                     <li><a href="/routes.html#rongai"> Rongai route</a>
                 </li>
               </ul>
-        <img src="/img/collection-centre.jpg" width = "400" height = "300" alt="Farmers queuing with churns at the Kiserian centre">
-       
+        <img src="img/collection-centre.jpg" width = "400" height = "300" alt="Farmers queuing with churns at the Kiserian centre">
+       </main>
        <aside>
 <h2>Notices</h2>
 <ul>
@@ -53,10 +35,4 @@ Kiserian collection centre.</li>
 a national ID and a bank account.</li>
 </ul>
 </aside>
-        <footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <p> <strong>Site</strong> built by <em>Intisar Hassan,</em> <a> href="#" DBT Year 1, 2026.</a></p>
-</footer>
-</body>
-
-</html>
+       <?php include 'includes/footer.php'; ?>

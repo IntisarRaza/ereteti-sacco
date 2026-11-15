@@ -1,37 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Deliveries — Ereteti Dairy Sacco</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&amp;family=Source+Serif+4:wght@600&amp;display=swap">
-  <link rel="stylesheet" href="CSS/style.css">
-  <!-- Week 8: the script, with defer -->
-  <script src="js/main.js" defer></script>
+<?php
+$page_title = "Deliveries- Ereteti Dairy Sacco";
+$page_heading = "Deliveries";
+include 'includes/header.php';
+?>
 
-
-  <script>
-    console. log("Embedded JS");
-  </script>
-
-</head>
-<body>
-
-  <header>
-    <h1>Deliveries</h1>
-    <p>Milk collected twice a day, on three routes out of Ngong.</p>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="routes.html">Routes</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="register.html">Join</a></li>
-      <li><a href="deliveries.html">Deliveries</a></li>
-    </ul>
-  </nav>
 
   <main>
     <p>Milk received at the Olepolos centre on the Kiserian route,
@@ -151,11 +123,4 @@
     </ul>
   </aside>
 
-  <footer>
-    <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
-    <!-- change this line to your own name -->
-    <p>Site built by Intisar Hassan, DBT Year 1, 2026.</p>
-  </footer>
-
-</body>
-</html>
+  <?php include 'includes/footer.php'; ?>
